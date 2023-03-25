@@ -58,7 +58,7 @@ public class GoodoWebsite {
 		driver.navigate().back();
 		driver.navigate().back();
 		driver.findElement(By.xpath("//a /i[@class='fas fa-shopping-cart fa-lg']")).click();
-		
+		driver.close();
 		
 		
 	}
